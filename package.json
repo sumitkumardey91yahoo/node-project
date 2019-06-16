@@ -1,27 +1,28 @@
 {
-  "name": "photo-album",
-  "version": "0.0.0",
+  "name": "e-commeres",
+  "version": "1.0.0",
   "private": true,
-  "main": "./bin/www.js",
   "engines": {
     "node": "10.x"
   },
+  "main": "./bin/www.js",
   "scripts": {
     "start": "node ./bin/www.js",
+    "test": "node test.js",
     "dev": "nodemon ./bin/www.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "mysql": "^2.17.1",
-    "pug": "2.0.0-beta11"
+    "mysql": "^2.17.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "git+https://github.com/heroku/node-js-getting-started.git"
   },
   "keywords": [
     "node",
